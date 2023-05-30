@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+   
+}
+
+.book {
+    
+    width: 250px ;
+    height: 320px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:20px ;
+    line-height: 10px;
+
+}
+
+.book:hover {
+    border: 2px solid rgb(113, 110, 110);
+    cursor: pointer; 
+}
+
+img {
+    width: 150px;
+    height: 220px;
+}
+
+p img {
+    width: 15px;
+    height: 15px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 20px;
+}
+h5 {
+    font-size: 16px;
+    margin: 5px;
+    text-transform:uppercase ;
+}
+p {
+   
+    font-size: 16px;
+    }
+
+.like {
+    margin: 5px;
+    color: blue;
+}  
+.unlike {
+    color: rgb(244, 26, 26);
+}
